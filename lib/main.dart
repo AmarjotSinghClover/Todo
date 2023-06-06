@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
       providers: [ChangeNotifierProvider(create: (_) => _taskNotifier)],
       builder: (context, child) {
         return MaterialApp(
-          
           title: 'Flutter Demo',
           theme: ThemeData(
             textTheme: TextTheme(bodyText2: TextStyle(fontSize: 30)),
